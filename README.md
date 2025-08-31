@@ -1,12 +1,11 @@
-```markdown
+````
 # Study Buddy 📚
 
 > An AI-powered study assistant that helps you learn from your documents via interactive chat and auto-generated quizzes — with inline citations.
 
-
 ![Study Buddy Home](assets/img.png)
----
 
+---
 
 ## ✨ Features
 - 🔍 **Smart ingestion** — upload multiple PDFs, docs, slides, data files
@@ -33,8 +32,8 @@
 ### Install & Run
 ```bash
 # 1) Clone
-git clone https://github.com/yourusername/study-buddy.git
-cd study-buddy
+git clone https://github.com/enkela1/studybuddy.git
+cd studybuddy
 
 # 2) (optional) create and activate a virtual env
 python -m venv .venv
@@ -59,7 +58,7 @@ Open: [http://localhost:8501](http://localhost:8501)
 ## 📁 Project Structure
 
 ```
-study-buddy/
+studybuddy/
 ├── main.py                # Streamlit UI
 ├── config.py              # Constants & prompts
 ├── utils.py               # Helpers (citations, JSON parsing, etc.)
@@ -69,7 +68,7 @@ study-buddy/
 ├── .env.example
 ├── .gitignore
 ├── README.md
-└── /assets           # Screenshots used in README
+└── assets/                # Screenshots used in README
 ```
 
 ---
@@ -79,7 +78,6 @@ study-buddy/
 1. **Upload documents** (PDF, TXT, DOCX, PPTX, CSV, JSON, HTML, code).
 2. **Chat** to ask questions about the uploaded content.
 3. **Generate a quiz** (3 MCQs by default) covering the uploaded files.
-
 
 ---
 
@@ -103,11 +101,10 @@ study-buddy/
 
 *Max size per file:* **200MB** (configurable in `config.py`)
 
-
-
+---
 
 ## 📄 License
 
 MIT
 
-
+````
