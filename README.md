@@ -18,11 +18,8 @@
 ---
 
 ## 🎥 Demo
-
-
-
-![Chat View](assets/img1.png)
-![Quiz View](assets/img2.png)
+![Chat View](assets/img_1.png)
+![Quiz View](assets/img_2.png)
 
 ---
 
