@@ -1,4 +1,4 @@
-````
+
 # Study Buddy 📚
 
 > An AI-powered study assistant that helps you learn from your documents via interactive chat and auto-generated quizzes — with inline citations.
